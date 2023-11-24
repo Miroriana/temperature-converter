@@ -11,5 +11,6 @@ function temperatureConverter(tCelcius){
     tFahrenheit = (tCelcius *9/5) + 32;
     return tFahrenheit;
 }
-const tCelcius= 30;
-console.log(tCelcius,"degree Celcius converted to Fahrenheit is ",temperatureConverter(tCelcius));
+
+const tCelcius= 40;
+console.log(tCelcius,"degrees Celcius converted to Fahrenheit is ",temperatureConverter(tCelcius));
