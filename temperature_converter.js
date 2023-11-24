@@ -6,6 +6,10 @@
 //             tFahrenheit: Temperature in Fahrenheit
 //             tCelcius: Temperature in Celcius 
 
-function temperatureConverter(){
-    
+function temperatureConverter(tCelcius){
+    var tFahrenheit;
+    tFahrenheit = (tCelcius *9/5) + 32;
+    return tFahrenheit;
 }
+const tCelcius= 30;
+console.log(tCelcius,"degree Celcius converted to Fahrenheit is ",temperatureConverter(tCelcius));
